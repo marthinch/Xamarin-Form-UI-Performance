@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="UIPerformance.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout>
+        <Label Text="This is ui performance test" />
+
+        <Button
+            x:Name="ButtonUIXAML"
+            Clicked="ButtonUIXAML_Clicked"
+            Text="UI XAML" />
+
+        <Button
+            x:Name="ButtonCSharpXAML"
+            Clicked="ButtonCSharpXAML_Clicked"
+            Text="C# XAML" />
+    </StackLayout>
+
+</ContentPage>

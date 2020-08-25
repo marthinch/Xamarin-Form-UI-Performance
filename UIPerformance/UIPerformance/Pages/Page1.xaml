@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="UIPerformance.Pages.Page1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Time}" />
+
+            <StackLayout>
+                <Label Text="Label 1" />
+                <Label Text="Label 2" />
+                <Label Text="Label 3" />
+                <Label Text="Label 4" />
+                <Label Text="Label 5" />
+                <Label Text="Label 6" />
+                <Label Text="Label 7" />
+                <Label Text="Label 8" />
+                <Label Text="Label 9" />
+                <Label Text="Label 10" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
