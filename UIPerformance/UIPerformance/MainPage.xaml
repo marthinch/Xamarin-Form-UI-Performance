@@ -15,7 +15,7 @@
         <Button
             x:Name="ButtonCSharpXAML"
             Clicked="ButtonCSharpXAML_Clicked"
-            Text="C# XAML" />
+            Text="UI C#" />
     </StackLayout>
 
 </ContentPage>
